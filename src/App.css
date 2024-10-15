@@ -4,14 +4,23 @@ body {
   font-family: 'Jost', sans-serif;
 }
 
-nav{
+nav {
   z-index: 10001 !important;
 }
 
-.gradientBg{
-  background: linear-gradient(99deg,  #45f0a0 0%, #36b8eb 100% );
+.gradientBg {
+  background: linear-gradient(99deg, #45f0a0 0%, #36b8eb 100%);
 }
-.gradientreversBg{
-  background: linear-gradient(-99deg, #45f0a0 0%, #36b8eb 100% );
 
+.gradientreversBg {
+  background: linear-gradient(-99deg, #45f0a0 0%, #36b8eb 100%);
+
+}
+
+.btnPrimary {
+  @apply gradientreversBg py-2 px-4 transition-all duration-300 rounded hover:text-white
+}
+
+.btnSecondary {
+  @apply gradientreversBg py-3 px-8 transition-all duration-300 rounded hover:text-white
 }
