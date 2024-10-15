@@ -1,4 +1,4 @@
-import imgContact from '../assets/img_contact_2.png';
+import imgContact from '../assets/logo_nav.png';
 import imgArbre from '../assets/result.png';
 
 const Contact = () => {

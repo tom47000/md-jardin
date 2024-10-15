@@ -1,5 +1,5 @@
 import Banner from '../shared/Banner';
-import logo_banner from '../assets/logo_banner.png';
+import logo_banner from '../assets/img_contact_2.png';
 
 const Home = () => {
     return (

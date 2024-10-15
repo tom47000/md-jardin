@@ -31,7 +31,7 @@ const Tarifs = () => {
 
             </div>
             {/* pricing cards */}
-            <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 md:w-11/12 mx-auto'>
+            <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-10  md:w-11/12 mx-auto'>
                 {packages.map((pkg, index) => <div key={index} className=' border py-5 md:px-6 px-4 rounded-lg shadow-3xl'>
                     <h3 className='text-3xl font-bold text-center text-primary'>{pkg.name}</h3>
                     <p className='text-tartiary text-center my-5'>{pkg.description}</p>
