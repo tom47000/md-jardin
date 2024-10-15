@@ -5,7 +5,7 @@ const Product = () => {
             <div className="flex flex-col lg:flex-row justify-between items-center gap-10">
                 <div className="lg:w-1/4">
                 <h3 className='text-3xl text-primary font-bold lg:w-1/2 mb-3'>Du travail sur mesure ?</h3>
-                <p>Voici la liste des services que je proposes, n'hésitez surtout pas à me contacter pour établir un devis.</p>
+                <p className='text-base text-tartiary md:m-4'>Voici la liste des services que je proposes, n'hésitez surtout pas à me contacter pour établir un devis.</p>
                 </div>
                 {/* product cards */}
                 <div className="w-full lg:w-3/4">

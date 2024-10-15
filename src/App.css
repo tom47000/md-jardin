@@ -9,5 +9,9 @@ nav{
 }
 
 .gradientBg{
-  background: linear-gradient(99deg, #EE9AE5 0%, #5961F9 100% );
+  background: linear-gradient(99deg,  #45f0a0 0%, #36b8eb 100% );
+}
+.gradientreversBg{
+  background: linear-gradient(-99deg, #45f0a0 0%, #36b8eb 100% );
+
 }

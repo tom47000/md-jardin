@@ -13,8 +13,9 @@ const Navbar = () => {
 
     const navItems = [
         { link: "Accueil", path: "home" },
-        { link: "Service", path: "service" },
-        { link: "Contact", path: "Contact" },
+        { link: "Services", path: "services" },
+        { link: "Photos", path: "photos" },
+        { link: "Commantaires", path: "commantaires" },
     ]
 
     return (
@@ -36,8 +37,8 @@ const Navbar = () => {
                     {/* language */}
                     <div className='space-x-12 hidden md:flex items-center'>
                         <a href="/" className='hidden lg:flex items-center hover:text-secondary'><GrLanguage className='mr-2' /> <span>Langue</span></a>
-                        <button className='bg-secondary py-2 px-4 transition-all duration-300 rounded
-                    hover:text-white hover:bg-indigo-600'>Sign up</button>
+                        <button className='gradientreversBg py-2 px-4 transition-all duration-300 rounded
+                    hover:text-white'>Contact</button>
                     </div>
                     {/* menu btn. only display on mobile */}
                     <div className='md:hidden'>
