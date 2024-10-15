@@ -1,4 +1,4 @@
-import logo_nav from '../assets/logo_nav.png';
+import imgContact from '../assets/img_contact_2.png';
 import imgArbre from '../assets/result.png';
 
 const Contact = () => {
@@ -6,7 +6,7 @@ const Contact = () => {
         <div className='md:px-14 p-4 max-w-s mx-auto space-y-10'>
             <div className='flex flex-col md:flex-row justify-between items-center gap-8'>
                 <div className="md:w-1/2">
-                    <img src={logo_nav} alt="" />
+                    <img src={imgContact} alt="" />
                 </div>
                 {/*about content */}
                 <div className='md:w-2/5'>

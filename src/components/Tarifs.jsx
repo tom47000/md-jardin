@@ -31,8 +31,8 @@ const Tarifs = () => {
 
             </div>
             {/* pricing cards */}
-            <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 md:w-11/12 mx-auto'>
-                {packages.map((pkg, index) => <div key={index} className=' border py-10 md:px-6 px-4 rounded-lg shadow-3xl'>
+            <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 md:w-11/12 mx-auto'>
+                {packages.map((pkg, index) => <div key={index} className=' border py-5 md:px-6 px-4 rounded-lg shadow-3xl'>
                     <h3 className='text-3xl font-bold text-center text-primary'>{pkg.name}</h3>
                     <p className='text-tartiary text-center my-5'>{pkg.description}</p>
                     <p className='mt-5 text-center text-secondary text-4xl font-bold'>
@@ -42,10 +42,13 @@ const Tarifs = () => {
                     <ul className='mt-4 space-y-2 px-4'>
                         <li className='flex gap-3 items-center'><img src={pkg.greenDot} alt="" className='w-6 h-6 rounded-3xl' /> Videos of lessons</li>
                         <li className='flex gap-3 items-center'><img src={pkg.greenDot} alt="" className='w-6 h-6 rounded-3xl' /> Homework check </li>
-                        <li className='flex gap-3 items-center'><img src={pkg.greenDot} alt="" className='w-6 h-6 rounded-3xl' /> Videos of lessons</li>
-                        <li className='flex gap-3 items-center'><img src={pkg.greenDot} alt="" className='w-6 h-6 rounded-3xl' /> Videos of lessons</li>
-                        <li className='flex gap-3 items-center'><img src={pkg.greenDot} alt="" className='w-6 h-6 rounded-3xl' /> Videos of lessons</li>
+                        <li className='flex gap-3 items-center'><img src={pkg.greenDot} alt="" className='w-6 h-6 rounded-3xl' /> Additional proactical task</li>
+                        <li className='flex gap-3 items-center'><img src={pkg.greenDot} alt="" className='w-6 h-6 rounded-3xl' /> Monthly conferences</li>
+                        <li className='flex gap-3 items-center'><img src={pkg.greenDot} alt="" className='w-6 h-6 rounded-3xl' /> Personal advice from teachers</li>
                     </ul>
+                    <div className='w-full mx-auto mt-8 flex items-center justify-center'>
+                        <button className='btnPrimary'>Get Started</button>
+                    </div>
                 </div>)
                 }
             </div>
