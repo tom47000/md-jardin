@@ -7,7 +7,7 @@ import Product from './components/Product'
 import Contact from './components/Contact'
 import Tarifs from './components/Tarifs'
 import Newsletter from './components/Newsletter'
-import Footer from './components/Footer'
+import Footer from './shared/Footer'
 
 
 function App() {

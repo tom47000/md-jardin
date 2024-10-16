@@ -57,12 +57,11 @@ const Navbar = () => {
                 </div>
             </nav >
 
-            <div className={`sapce-y-4 px-4 pt-24 pb-5 bg-secondary text-xl ${isMenuOpen ? "block fixed left-0 top-0 right-0" : "hidden"}`}>
+            <div className={`sapce-y-4 px-4 pt-24 pb-5 gradientreversBg text-xl ${isMenuOpen ? "block fixed left-0 top-0 right-0" : "hidden"}`}>
                 {
-
-                    navItems.map(({ link, path }) => <a key={link} href={path} className='block 
-                hover:text-gray-300'>{link}</a>)
-
+                    navItems.map(({ link, path }) => <Link activeClass='active' spy={true} smooth={true} offset={-80} key={link} to={path}
+                        className='block text-white py-2 hover:text-gray-300
+                        cursor-pointer' onClick={toggleMenu}>{link}</Link>)
                 }
             </div>
         </>
