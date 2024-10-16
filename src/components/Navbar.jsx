@@ -2,7 +2,11 @@ import { useState } from 'react';
 import logo_nav from '../assets/logo_nav.png';
 // react icons
 import { GrLanguage } from "react-icons/gr";
-import { FaXmark, FaBars } from 'react-icons/fa6'
+import { FaXmark, FaBars } from 'react-icons/fa6';
+
+import { Link } from 'react-scroll';
+
+
 const Navbar = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,6 +22,7 @@ const Navbar = () => {
         { link: "Commantaires", path: "commantaires" },
     ]
 
+
     return (
         <>
             <nav className='bg-white md:px-14 p-4 max-w-screen-2xl mx-auto text-primary fixed left-0 top-0 right-0'>
@@ -29,15 +34,16 @@ const Navbar = () => {
                         </a>
                         <ul className='md:flex space-x-12 hidden'>
                             {
-                                navItems.map(({ link, path }) => <a key={link} href={path} className='block 
-                            hover:text-gray-300'>{link}</a>)
+                                navItems.map(({ link, path }) => <Link activeClass='active' spy={true} smooth={true} offset={-100} key={link} to={path}
+                                    className='block hover:text-gray-300 cursor-pointer'>{link}</Link>)
                             }
                         </ul>
                     </div>
                     {/* language */}
                     <div className='space-x-12 hidden md:flex items-center'>
                         <a href="/" className='hidden lg:flex items-center hover:text-secondary'><GrLanguage className='mr-2' /> <span>Langue</span></a>
-                        <button className='btnPrimary'>Contact</button>
+                        <button className='gradientreversBg py-2 px-4 transition-all duration-300 rounded
+                    hover:text-white'>Contact</button>
                     </div>
                     {/* menu btn. only display on mobile */}
                     <div className='md:hidden'>
@@ -46,9 +52,7 @@ const Navbar = () => {
                             {
                                 isMenuOpen ? (<FaXmark className='w-6 h-6 text-primary' />) : (<FaBars className='w-6 h-6 text-primary ' />)
                             }
-
                         </button>
-
                     </div>
                 </div>
             </nav >
