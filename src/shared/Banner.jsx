@@ -57,7 +57,7 @@ const Banner = ({ banner, heading, subheading, btn1 }) => {
             <div>
 
                 <div className="flex space-x-4 mt-3">
-                    <p>Retrouvez nos réseaux sociaux<br />en un clic ;)</p>
+                    <p>Retrouvez nos réseaux sociaux<br />en un clic</p>
                     {/* <FaFacebook size={30} className="text-blue-600"  /> */}
                     <a
                         href="https://www.instagram.com//"

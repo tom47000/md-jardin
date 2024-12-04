@@ -87,17 +87,6 @@ const Footer = () => {
                                 >
                                     md-jardin47@gmail.com
                                 </a></p>
-                                <p className='hover:text-gray-500 ml-1 text-primary'><a
-                                    href="https://www.google.fr/maps/place/10+Rue+de+l'Engelbreit,+67200+Strasbourg/@48.5793521,7.7057799,17z/data=!3m1!4b1!4m6!3m5!1s0x4796b62a7d7ddbb3:0xc4cdd8eb37b2e21c!8m2!3d48.5793486!4d7.7083548!16s%2Fg%2F11bw4cd676?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"
-                                    style={{
-
-                                        textDecoration: "none",
-                                        fontWeight: "bold",
-                                    }}
-                                >
-                                    10 RUE DE L'ENGELBREIT <br /> 67200 STRASBOURG
-                                </a></p>
-
                             </ul>
                         </div>
                     </div>

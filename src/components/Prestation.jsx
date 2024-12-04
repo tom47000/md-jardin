@@ -95,8 +95,8 @@ const Prestation = () => {
                         Entretiens de jardin <span className='text-secondary'>contractualisés</span></h2>
                     <p className='text-tarciary text-lg mb-7 '>C’est la solution pour toujours avoir un jardin correctement entretenu sans pour autant se soucier du temps à y consacrer et de l’énergie à dépenser dans des travaux parfois difficiles.
                     </p>
-                    <p className='text-tarciary text-s mb-7'>Nous établissons ensemble un planning de gestion (nombres de tontes, périodes de tailles…) qui permet de bien maîtriser les coûts liés aux diverses opérations que vous souhaitez déléguer. Nous nous déplaçons pour tous travaux d'entretien de parc et jardin dans le Lot-et-Garonne.</p>
-                    <button className='btnSecondary'>Get Started</button>
+                    <p className='text-tarciary text-lg mb-7'>Nous établissons ensemble un planning de gestion (nombres de tontes, périodes de tailles…) qui permet de bien maîtriser les coûts liés aux diverses opérations que vous souhaitez déléguer. Nous nous déplaçons pour tous travaux d'entretien de parc et jardin dans le Lot-et-Garonne.</p>
+                    <button onClick={() => scrollToSection("contact")} className='btnSecondary' >Contact</button>
                 </div>
             </div>
             {/*Prestation 2*/}
