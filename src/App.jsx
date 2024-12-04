@@ -3,7 +3,8 @@ import './App.css'
 
 import Navbar from './components/Navbar'
 import Home from './components/Home'
-import Product from './components/Product'
+import Prestation from './components/Prestation'
+import Photos from './components/Photos'
 import Contact from './components/Contact'
 import Tarifs from './components/Tarifs'
 import Newsletter from './components/Newsletter'
@@ -16,9 +17,9 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <Product />
+      <Photos />
+      <Prestation />
       <Contact />
-      <Tarifs />
       <Newsletter />
       <Footer />
     </>
