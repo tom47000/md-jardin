@@ -10,7 +10,7 @@ const Prestation = () => {
         if (section) {
             window.scrollTo({
                 top: section.offsetTop - 90, // Décale de 130px pour compenser le header
-                behavior: "smooth", // Défilement fluide
+                behavior: 'smooth', // Défilement fluide
             });
         }
     };

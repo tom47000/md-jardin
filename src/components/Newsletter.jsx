@@ -5,8 +5,7 @@ const Newsletter = () => {
     return (
         <div className="md:px-14 p-4 max-w-screen-4xl mx-auto my-12">
             {/* use our banner component and pass props */}
-            <Banner banner={imgBanner} heading="Vous pouvez envoyer votre demande de devis ici" subheading="A simple paragraph is comprised of three major components. The which is often a declarative
-                    sentence" btn1={"I have a devis"} />
+            <Banner banner={imgBanner} heading="Regardez votre jardin prendre forme" subheading="Offrez une seconde vie à vos espaces verts avec nos services d'entretien de parc et jardin ! Taille, tonte, élagage, arrosage, et évacuation des déchets verts : nous prenons soin de votre jardin pour qu'il reste beau, propre et accueillant toute l'année. 🌿" btn1={""} />
         </div>
     )
 }

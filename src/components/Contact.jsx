@@ -3,14 +3,14 @@ import imgArbre from '../assets/result.png';
 
 const Contact = () => {
     return (
-        <div className='md:px-14 p-4 max-w-screen-2xl mx-auto space-y-10' id='contact'>
-            <div className='flex flex-col md:flex-row justify-between items-center gap-8'>
+        <div className='md:px-14 p-4 max-w-screen-2xl mx-auto space-y-5' id='contact'>
+            <div className='flex flex-col md:flex-row justify-between items-center gap-5'>
                 <div className="md:w-1/2">
                     <img src={imgContact} alt="" />
                 </div>
                 {/*about content */}
                 <div className='md:w-2/5 ' >
-                    <h2 className='md:text-5xl text-3xl font-bold text-primary mb-5 leading-normal sm:leading-tight'>
+                    <h2 className='md:text-5xl text-3xl font-bold text-primary mb-3 leading-normal sm:leading-tight'>
                         Pour établir un devis après visite sur site, <span className='text-secondary '>contactez-moi</span></h2>
                     <p className='text-tarciary text-lg pt-5 '>Par téléphone en composant le</p>
                     <button className='py-3 px-8 bg-secondary font-semibold text-gray-900 rounded

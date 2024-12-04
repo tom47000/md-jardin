@@ -34,7 +34,7 @@ const Navbar = () => {
                         </a>
                         <ul className='md:flex space-x-12 hidden'>
                             {
-                                navItems.map(({ link, path }) => <Link activeClass='active' spy={true} smooth={true} offset={-100} key={link} to={path}
+                                navItems.map(({ link, path }) => <Link activeClass='active' spy={true} smooth={true} offset={-90} key={link} to={path}
                                     className='gradientreversBg py-2 2xl:px-14 px-4 transition-all duration-300 rounded
                                 hover:text-white cursor-pointer'>{link}</Link>)
                             }
