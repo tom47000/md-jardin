@@ -51,9 +51,10 @@ const Prestation = () => {
         },
     ];
     return (
-        <div className='md:px-14 p-4 max-w-screen-2xl mx-auto space-y-10' id='prestation'>
+        <div className='md:px-14 p-4 max-w-screen-2xl mx-auto ' id='prestation'>
             {/*Prestation 1*/}
-            <div className='flex flex-col md:flex-row-reverse justify-between items-center gap-8'>
+            <h1 className='text-3xl md:text-5xl text-primary font-bold '>Les prestations que je propose </h1>
+            <div className='flex flex-col md:flex-row-reverse justify-between items-center gap-8 pt-20'>
                 <div className="md:w-1/2">
                     <div className='mx-auto '>
                         {package1.map((pkg1, index) => (
@@ -99,7 +100,7 @@ const Prestation = () => {
                 </div>
             </div>
             {/*Prestation 2*/}
-            <div className='flex flex-col md:flex-row justify-between items-center gap-8'>
+            <div className='flex flex-col md:flex-row justify-between items-center gap-8 pt-20'>
                 <div className="md:w-1/2">
                     <div className='mx-auto '>
                         {package2.map((pkg2, index) => (

@@ -7,7 +7,7 @@ import { FaSquareFacebook } from 'react-icons/fa6';
 const Banner = ({ banner, heading, subheading, btn1 }) => {
     const isMobile = useMediaQuery({ maxWidth: 768 });
     return (
-        <div className='gradientBg rounded-xl rounded-br-[80px] md:p-5 px-4 py-5'>
+        <div className='gradientBg rounded-xl rounded-br-[80px] md:p-5 px-4 '>
             <div className='flex flex-col md:flex-row-reverse justify-between items-center gap-5'>
                 {/* image de la bannière */}
                 <motion.div
@@ -60,7 +60,7 @@ const Banner = ({ banner, heading, subheading, btn1 }) => {
                     <p>Retrouvez nos réseaux sociaux<br />en un clic ;)</p>
                     {/* <FaFacebook size={30} className="text-blue-600"  /> */}
                     <a
-                        href="https://www.instagram.com/smile.conduite/"
+                        href="https://www.instagram.com//"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-rose-800 hover:text-rose-500"
@@ -68,7 +68,7 @@ const Banner = ({ banner, heading, subheading, btn1 }) => {
                         <FaInstagram size={40} />
                     </a>
                     <a
-                        href="https://www.snapchat.com/add/Smile.conduite"
+                        href="https://www.facebook.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:text-blue-900"
