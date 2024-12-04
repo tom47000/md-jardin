@@ -23,7 +23,7 @@ const Footer = () => {
                     <p className='md:w-1/2 text-gray-900 font-semibold text-xl'>Regardez votre jardin prendre forme</p>
                     <p className='md:w-1/2 text-gray-900 '>Numéro siret: <span className='font-semibold text-xl'>98323186100011</span></p>
                     <p className='text-primary'> Laissez-nous un avi Google en cliquant <a className='text-decoration-none font-bold text-primary hover:text-gray-500'
-                        href="https://g.page/r/CYKPoPrwZKQLEAI/review" target="_blank" rel="noopener noreferrer">
+                        href="https://g.page/r/review" target="_blank" rel="noopener noreferrer">
                         ICI :)</a>
                     </p>
 
